@@ -15,7 +15,7 @@ rl.question('What is your name? ', (answer) => {
     console.log("Your name Inserted into the file");
    console.log("After fetching whole data from the file");
    fs.readFile('./name.txt','utf8',(err,data)=>{
-    console.log(data);
+ 
    })
 })
  rl.close();
